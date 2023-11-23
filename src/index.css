@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .direction-col-center {
+    @apply flex flex-col items-center justify-center py-[3em];
+  }
+
+  .direction-col {
+    @apply flex flex-col justify-center;
+  }
+
+  .direction-row {
+    @apply flex flex-row items-center justify-evenly;
+  }
+
+  .titleBox {
+    @apply px-2 h-fit direction-col border-l-2 border-details leading-none;
+  }
+
+  .title {
+    @apply text-details text-[1.7em];
+  }
+
+  .subtitle {
+    @apply text-[1.3em];
+  }
+}
