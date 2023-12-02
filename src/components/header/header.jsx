@@ -19,12 +19,7 @@ function Header() {
         </div>
       </a>
       
-    </div>
-
-    <div className="relative top-[60vh]">
-    <IconArrow/>
-    </div>
-    
+    </div>    
   </header>
   );
 }
