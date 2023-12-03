@@ -1,4 +1,3 @@
-import IconArrow from "../../images/iconArrow";
 import IconWhatsappMin from "../../images/iconWhatsAppMin";
 import data_images from "../../images/imagesUrl";
 

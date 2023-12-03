@@ -7,10 +7,10 @@ import IconWhatsapp from "../../images/iconWhatsapp";
 
 function Home() {
   return (
-    <main className="w-full direction-col-center pb-0">
+    <main className="w-full direction-col-center p-0">
       <MakeYourOwnArt />
-      <Coments />
       <AboutUs />
+      <Coments />
       <Contact />
       <Address/>
       <div className="fixed right-4 bottom-4">

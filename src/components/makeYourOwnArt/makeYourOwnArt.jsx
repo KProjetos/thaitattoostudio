@@ -1,10 +1,10 @@
 function MakeYourOwnArt() {
     return (
-      <section className="w-full direction-col-center pt-0 bg-second">
+      <section className="w-full direction-col-center pt-10 bg-principal text-second">
         <div className="w-[90%] max-w-[1080px] direction-col">
           <div className="titleBox">
             <h1 className="title">Faça sua própria arte</h1>
-            <p className="subtitle">Desenhe sua história</p>
+            <p className="subtitle text-second">Desenhe sua história</p>
           </div>
 
           <div className="w-full direction-col lg:direction-row">
