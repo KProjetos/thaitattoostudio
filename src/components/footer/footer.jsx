@@ -47,7 +47,7 @@ function Footer() {
       
     </div>
 
-    <div className="w-full direction-col items-center text-white  mt-">
+    <div className="w-full direction-col items-center text-white  mt-4">
       <h4>Criado por Ntec Soluções © {currentYear}</h4>
     </div>
     
