@@ -1,7 +1,7 @@
 import MakeYourOwnArt from "../../components/makeYourOwnArt/makeYourOwnArt";
 import AboutUs from "../../components/aboutUs/aboutUs";
 import Coments from "../../components/coments/coments";
-import Contact from "../../components/contact/contact";
+import Faq from "../../components/faq/faq";
 import Address from "../../components/address/address";
 import IconWhatsapp from "../../images/iconWhatsapp";
 
@@ -11,7 +11,7 @@ function Home() {
       <MakeYourOwnArt />
       <AboutUs />
       <Coments />
-      <Contact />
+      <Faq />
       <Address/>
       <div className="fixed right-4 bottom-4">
       <a href="">
