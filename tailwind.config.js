@@ -14,7 +14,8 @@ module.exports = withMT({
       "desktopGif": "url('CAMINHO')",
       "mobileGif": "url('CAMINHO')",
       "makeYourOwnArtVideo": "url('CAMINHO')",
-      "aboutUsVideo": "url('CAMINHO')"
+      "aboutUsVideo": "url('CAMINHO')",
+      "footer": "url('https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/footerBG.png.png?alt=media&token=664b1c3b-64a4-4c3b-b068-ee701f342767')"
     }
   },
   plugins: [],
