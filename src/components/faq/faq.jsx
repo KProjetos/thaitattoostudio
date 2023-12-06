@@ -73,10 +73,10 @@ function Contact() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quo, excepturi repellendus odit quas dolores ea blanditiis
           </div>
         </div>
-        <div className="direction-col lg:direction-row my-[2em]">
-          <img src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
-          <img src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
-          <img src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
+        <div className="w-full direction-col items-center lg:direction-row my-[2em]">
+          <img className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
+          <img className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
+          <img className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
         </div>
       </div>
 
@@ -90,15 +90,15 @@ function Contact() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quo, excepturi repellendus odit quas dolores ea blanditiis
           </div>
         </div>
-        <div className="direction-col lg:direction-row my-[2em]">
-          <img src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
-          <img src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
-          <img src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
+        <div className="w-full direction-col items-center lg:direction-row my-[2em]">
+          <img className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
+          <img className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
+          <img className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
         </div>
       </div>
 
 
-        <a href="" className="text-center title hover:underline">Veja mais sobre o espaço zen</a>
+        <a href="" className="title text-center text-[1.3em] mt-4 hover:underline">Veja mais sobre o espaço zen</a>
 
     </div>
 

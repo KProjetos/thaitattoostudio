@@ -17,23 +17,26 @@ function MakeYourOwnArt() {
               </p>
             </div>
           </div>
-        </div>
-        <div className="w-[80%] direction-col text-center lg:direction-row relative top-16">
 
-          <div className="w-full lg:w-[28%] px-2 lg:px-4 flex flex-row items-center justify-start p-4 rounded-lg bg-white shadow-md shadow-details">
+          <div className="w-full direction-col text-center lg:direction-row relative top-16 gap-4 lgap-0">
+
+          <div className="w-full lg:w-[28%] px-2 lg:px-4 flex flex-row items-center justify-start p-4 rounded-lg gap-3 bg-white shadow-md shadow-details">
             <div className="text-details text-[1.7em]">1.</div>
-            <div>Texto</div>
+            <div className="text-principal">Criação de arte exclusiva</div>
           </div>
-          <div className="w-full lg:w-[28%] px-2 lg:px-4 flex flex-row items-center justify-start p-4 rounded-lg bg-white shadow-md shadow-details lg:relative lg:top-6">
+          <div className="w-full lg:w-[28%] px-2 lg:px-4 flex flex-row items-center justify-start p-4 rounded-lg gap-3 bg-white shadow-md shadow-details lg:relative lg:top-6">
             <div className="text-details text-[1.7em]">2.</div>
-            <div>Texto</div>
+            <div className="text-principal">Simulação da arte na sua pele</div>
           </div>
-          <div className="w-full lg:w-[28%] px-2 lg:px-4 flex flex-row items-center justify-start p-4 rounded-lg bg-white shadow-md shadow-details">
+          <div className="w-full lg:w-[28%] px-2 lg:px-4 flex flex-row items-center justify-start p-4 rounded-lg gap-3 bg-white shadow-md shadow-details">
             <div className="text-details text-[1.7em]">3.</div>
-            <div>Texto</div>    
+            <div className="text-principal" >Texto</div>    
           </div>
 
         </div>
+
+        </div>
+        
       </section>
     );
   }

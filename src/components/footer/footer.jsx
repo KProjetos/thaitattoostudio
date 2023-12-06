@@ -13,7 +13,10 @@ function Footer() {
 
 
   return (
-    <footer className="w-full direction-col-center bg-footer bg-cover filter py-4">
+    <footer className="w-full h-full direction-col-center bg-footer bg-cover py-0">
+    <div className="w-full h-full direction-col items-center backdrop-brightness-50 bg-black/10 py-6">
+
+      
     <div className="w-[90%] max-w-[1080px] direction-col flex-col-reverse items-center lg:direction-row lg:justify-between">
 
       <div className="w-full direction-col items-center">
@@ -40,17 +43,17 @@ function Footer() {
           </div>
           <img src={logo} alt="Thai Tattoo Studio" className="w-[175px]"/>
         </div>
-        <div className="w-full direction-row justify-center gap-1 my-[1.5em]"><span><LocalGold/></span>Rua Senador Ricardo Batista, 165 Assunção - SBC/SP</div>
+        <div className="w-full text-center direction-row justify-center gap-1 my-[1.5em]"><span><LocalGold/></span>Rua Senador Ricardo Batista, 165 Assunção - SBC/SP</div>
       </div>
       
 
       
     </div>
 
-    <div className="w-full direction-col items-center text-white  mt-4">
+    <div className="w-full direction-col items-center text-white  mt-7">
       <h4>Criado por Ntec Soluções © {currentYear}</h4>
     </div>
-    
+    </div>
   </footer>
   );
 }
