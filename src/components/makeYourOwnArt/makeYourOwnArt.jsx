@@ -4,11 +4,11 @@ function MakeYourOwnArt() {
         <div className="w-[90%] max-w-[1080px] direction-col">
           <div className="titleBox">
             <h1 className="title">Faça sua própria arte</h1>
-            <p className="subtitle text-second">Desenhe sua história</p>
+            <p className="subtitle text-second">Eternize um significado, uma arte, ou uma homenagem. Desenhe sua história.</p>
           </div>
 
           <div className="w-full direction-col lg:direction-row">
-            <div className="w-full lg:w-[50%] h-[250px] direction-col-center bg-principal lg:mt-8 my-6 rounded-lg">
+            <div className="w-full lg:w-[45%] h-[250px] direction-col-center bg-second text-principal lg:mt-8 my-6 rounded-lg">
               vídeo
             </div>
             <div className="w-full lg:w-[45%] px-2 lg:px-4">
@@ -18,7 +18,7 @@ function MakeYourOwnArt() {
             </div>
           </div>
 
-          <div className="w-full direction-col text-center lg:direction-row relative top-16 gap-4 lgap-0">
+          <div className="w-full direction-col text-center lg:direction-row relative top-16 gap-4 lg:gap-0 z-50">
 
           <div className="w-full lg:w-[28%] px-2 lg:px-4 flex flex-row items-center justify-start p-4 rounded-lg gap-3 bg-white shadow-md shadow-details">
             <div className="text-details text-[1.7em]">1.</div>
