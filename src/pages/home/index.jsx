@@ -1,19 +1,19 @@
 import MakeYourOwnArt from "../../components/makeYourOwnArt/makeYourOwnArt";
 import AboutUs from "../../components/aboutUs/aboutUs";
 import Coments from "../../components/coments/coments";
-import Contact from "../../components/contact/contact";
+import Faq from "../../components/faq/faq";
 import Address from "../../components/address/address";
 import IconWhatsapp from "../../images/iconWhatsapp";
 
 function Home() {
   return (
-    <main className="w-full direction-col-center pb-0">
+    <main className="w-full direction-col-center p-0">
       <MakeYourOwnArt />
-      <Coments />
       <AboutUs />
-      <Contact />
-      <Address/>
-      <div className="fixed right-4 bottom-4">
+      <Coments />
+      <Faq />
+      
+      <div className="fixed right-4 bottom-4 z-50">
       <a href="">
         <IconWhatsapp/>
       </a>

@@ -1,4 +1,3 @@
-import IconArrow from "../../images/iconArrow";
 import IconWhatsappMin from "../../images/iconWhatsAppMin";
 import data_images from "../../images/imagesUrl";
 
@@ -19,12 +18,7 @@ function Header() {
         </div>
       </a>
       
-    </div>
-
-    <div className="relative top-[60vh]">
-    <IconArrow/>
-    </div>
-    
+    </div>    
   </header>
   );
 }

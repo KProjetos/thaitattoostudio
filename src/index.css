@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&display=swap');
 
 @layer components {
   .direction-col-center {
@@ -16,14 +17,14 @@
   }
 
   .titleBox {
-    @apply px-2 h-fit direction-col border-l-2 border-details leading-none;
+    @apply px-2 pb-3 h-fit direction-col border-l-2 border-details leading-[1.3];
   }
 
   .title {
-    @apply text-details text-[1.7em];
+    @apply text-details text-[1.7em] font-aref;
   }
 
   .subtitle {
-    @apply text-[1.3em];
+    @apply text-[1.3em] font-aref;
   }
 }
