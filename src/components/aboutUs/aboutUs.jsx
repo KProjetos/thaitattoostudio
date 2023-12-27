@@ -1,14 +1,24 @@
 import { Carousel } from "@material-tailwind/react";
+import { useEffect } from 'react';
+
+// aos
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function AboutUs() {
+
+  useEffect(() => {
+    AOS.init({duration:1200})
+  })
+
     return (
       <section className="w-full direction-col-center bg-second">
 
         <div className="hidden direction-col w-[90%] max-w-[1080px]  items-center text-center lg:direction-row mt-4 gap-2 ">
 
-          <img className="w-[320px]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/tattoEx.png?alt=media&token=dbce4782-f18b-4eea-b467-e5d48ca47e3e" alt="" />
-          <img className="w-[320px]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/tattoEx.png?alt=media&token=dbce4782-f18b-4eea-b467-e5d48ca47e3e" alt="" />
-          <img className="w-[320px]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/tattoEx.png?alt=media&token=dbce4782-f18b-4eea-b467-e5d48ca47e3e" alt="" />
+          <img className="w-[320px] " data-aos="fade-down" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/tattoEx.png?alt=media&token=dbce4782-f18b-4eea-b467-e5d48ca47e3e" alt="" />
+          <img className="w-[320px] " data-aos="fade-down"  data-aos-delay="200" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/tattoEx.png?alt=media&token=dbce4782-f18b-4eea-b467-e5d48ca47e3e" alt="" />
+          <img className="w-[320px] " data-aos="fade-down"  data-aos-delay="300" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/tattoEx.png?alt=media&token=dbce4782-f18b-4eea-b467-e5d48ca47e3e" alt="" />
 
         </div>
 

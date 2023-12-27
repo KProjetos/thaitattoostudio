@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from 'react';
 import {
   Accordion,
   AccordionHeader,
@@ -6,8 +7,14 @@ import {
 } from "@material-tailwind/react";
 import Icon from "./icon.jsx";
 import IconAmbiente from "./arrowAmbiente.jsx";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Contact() {
+
+  useEffect(() => {
+    AOS.init({duration:1200})
+  })
 
   const [open, setOpen] = React.useState(0);
 
@@ -74,9 +81,9 @@ function Contact() {
           </div>
         </div>
         <div className="w-full direction-col items-center lg:direction-row my-[2em]">
-          <img className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
-          <img className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
-          <img className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
+          <img data-aos="fade-right" className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
+          <img data-aos="fade-right" className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
+          <img data-aos="fade-right" className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
         </div>
       </div>
 
@@ -90,10 +97,10 @@ function Contact() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quo, excepturi repellendus odit quas dolores ea blanditiis
           </div>
         </div>
-        <div className="w-full direction-col items-center lg:direction-row my-[2em]">
-          <img className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
-          <img className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
-          <img className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
+        <div className="w-full direction-col items-center lg:direction-row my-[2em] ">
+          <img data-aos="fade-left" className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
+          <img data-aos="fade-left" className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
+          <img data-aos="fade-left" className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
         </div>
       </div>
 
