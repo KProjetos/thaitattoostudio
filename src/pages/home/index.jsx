@@ -13,8 +13,8 @@ function Home() {
       <Coments />
       <Faq />
       
-      <div className="fixed right-4 bottom-4 z-50">
-      <a href="">
+      <div className="w-[90%] max-w-[1080px] direction-col  z-50">
+      <a className="fixed right-4 bottom-4" href="">
         <IconWhatsapp/>
       </a>
     </div>

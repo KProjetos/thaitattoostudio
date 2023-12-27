@@ -21,7 +21,7 @@ function Coments() {
               coments.map(coment => {
                 return(
                   <div className="w-full direction-col-center">
-                    <div className="w-[65%] h-[250px] lg:h-[250px] px-[1em] lg:px-[2em] direction-col bg-second rounded-[27px] shadow-md shadow-details">
+                    <div className="w-[65%] h-[350px] lg:h-[250px] px-[1em] lg:px-[2em] direction-col bg-second rounded-[27px] shadow-md shadow-details">
                       <p className="text-details text-[1.2em] mb-4 text-center lg:text-left">{coment.name}</p>
                       <p className="text-[1.2em] text-center">"{coment.coment}"</p>
                     </div>

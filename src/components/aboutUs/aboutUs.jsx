@@ -14,7 +14,7 @@ function AboutUs() {
     return (
       <section className="w-full direction-col-center bg-second">
 
-        <div className="hidden direction-col w-[90%] max-w-[1080px]  items-center text-center lg:direction-row mt-4 gap-2 ">
+        <div className="hidden direction-col w-[90%] max-w-[1080px] items-center text-center lg:direction-row mt-4 gap-2 ">
 
           <img className="w-[320px] " data-aos="fade-down" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/tattoEx.png?alt=media&token=dbce4782-f18b-4eea-b467-e5d48ca47e3e" alt="" />
           <img className="w-[320px] " data-aos="fade-down"  data-aos-delay="200" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/tattoEx.png?alt=media&token=dbce4782-f18b-4eea-b467-e5d48ca47e3e" alt="" />
@@ -22,7 +22,7 @@ function AboutUs() {
 
         </div>
 
-        <Carousel className="mobile:relative mobile:bottom-16 lg:hidden">
+        <Carousel className="mobile:relative mobile:bottom-16 lg:hidden w-full ">
           <img
             src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/tattoEx.png?alt=media&token=dbce4782-f18b-4eea-b467-e5d48ca47e3e"
             alt="image 1"

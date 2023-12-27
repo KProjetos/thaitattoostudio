@@ -70,7 +70,7 @@ function Contact() {
         
       </div>
 
-      <div className="w-full direction-col">
+      <div className="w-full direction-col items-center">
         <div className="direction-col lg:direction-row lg:gap-4 lg:justify-start">
           <div className="lg:w-[30%] direction-col items-start">
             <h2 className="title">Ambiente familiar</h2>
@@ -80,14 +80,14 @@ function Contact() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quo, excepturi repellendus odit quas dolores ea blanditiis
           </div>
         </div>
-        <div className="w-full direction-col items-center lg:direction-row my-[2em]">
+        <div className="w-[90%] direction-col items-center lg:direction-row my-[2em]">
           <img data-aos="fade-right" className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
           <img data-aos="fade-right" className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
           <img data-aos="fade-right" className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
         </div>
       </div>
 
-      <div className="w-full direction-col">
+      <div className="w-full direction-col items-center">
         <div className="direction-col lg:direction-row lg:gap-4 lg:justify-start">
           <div className="lg:w-[30%] direction-col items-start">
             <h2 className="title">Espaço zen</h2>
@@ -97,7 +97,7 @@ function Contact() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quo, excepturi repellendus odit quas dolores ea blanditiis
           </div>
         </div>
-        <div className="w-full direction-col items-center lg:direction-row my-[2em] ">
+        <div className="w-[90%] direction-col items-center lg:direction-row my-[2em] overflow-x-hidden">
           <img data-aos="fade-left" className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
           <img data-aos="fade-left" className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
           <img data-aos="fade-left" className="w-full max-w-[90%] lg:w-[33.33%]" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
