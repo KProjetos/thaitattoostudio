@@ -1,15 +1,25 @@
 import { Carousel } from "@material-tailwind/react";
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
+// import caching from "../../functions/caching.jsx";
 
-// aos
-import AOS from "aos";
-import "aos/dist/aos.css";
+
+// // aos
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+
+// const images = [
+//   "https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/tattoEx.png?alt=media&token=dbce4782-f18b-4eea-b467-e5d48ca47e3e"
+// ]
 
 function AboutUs() {
 
-  useEffect(() => {
-    AOS.init({duration:1200})
-  })
+  // const cachedImages = caching(images)
+  //   console.log(cachedImages.image0)
+
+  // useEffect(() => {
+  //   AOS.init({duration:1200})
+    
+  // },[])
 
     return (
       <section className="w-full direction-col-center bg-second">
@@ -40,7 +50,7 @@ function AboutUs() {
           />
         </Carousel>
 
-        <div className="w-[90%] max-w-[1080px] direction-col mt-[4em]">
+        <div className="w-[90%] max-w-[1080px] direction-col lg:mt-[3em]">
           <div className="titleBox ">
             <h1 className="title">Sobre nós</h1>
             <p className="subtitle">Um pouco da nossa história</p>
