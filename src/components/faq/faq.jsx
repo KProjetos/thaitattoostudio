@@ -31,31 +31,41 @@ function Contact() {
       <div className="w-full direction-col-center">
 
       <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
-        <AccordionHeader onClick={() => handleOpen(1)} className={open === 1 ? "text-details hover:text-details" : "text-principal"}>What is Material Tailwind?</AccordionHeader>
+        <AccordionHeader onClick={() => handleOpen(1)} className={open === 1 ? "text-details hover:text-details" : "text-principal"}><h3>Como funciona para agendar?</h3></AccordionHeader>
         <AccordionBody>
-          We&apos;re not always in the position that we want to be at. We&apos;re constantly
-          growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
-          ourselves and actualize our dreams.
+          <p className="text-[1.2em]">Basta clicar no símbolo do <a className="hover:underline text-details font-bold" href="https://wa.me/5511940767201">WhatsApp</a> da página, que será direcionado para nossos atendentes.</p>
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
         <AccordionHeader onClick={() => handleOpen(2)} className={open === 2 ? "text-details hover:text-details" : "text-principal"}>
-          How to use Material Tailwind?
+        <h3>Fazem todos os estilos de Tattoo?</h3>
         </AccordionHeader>
         <AccordionBody>
-          We&apos;re not always in the position that we want to be at. We&apos;re constantly
-          growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
-          ourselves and actualize our dreams.
+          <p className="text-[1.2em]">Sim, a grande maioria. Traços finos, Realismo, Ornamental, Pontilhismo, Geométrica, Coloridas, Geek (Estilo anime), Patch work (Estilo bordado), Old school, Black work (Artes mais pretas), Tribais (Estilo Maori), entre outras.</p>
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
         <AccordionHeader onClick={() => handleOpen(3)} className={open === 3 ? "text-details hover:text-details" : "text-principal"}>
-          What can I do with Material Tailwind?
+        <h3>Fazem reforma e cobertura?</h3>
         </AccordionHeader>
         <AccordionBody>
-          We&apos;re not always in the position that we want to be at. We&apos;re constantly
-          growing. We&apos;re constantly making mistakes. We&apos;re constantly trying to express
-          ourselves and actualize our dreams.
+        <p className="text-[1.2em]">Sim, fazemos bastante tipo de cobertura e reforma também que é revitalizar uma Tattoo antiga.</p>
+        </AccordionBody>
+      </Accordion>
+      <Accordion open={open === 4} icon={<Icon id={4} open={open} />}>
+        <AccordionHeader onClick={() => handleOpen(4)} className={open === 4 ? "text-details hover:text-details" : "text-principal"}>
+        <h3>Qual o endereço do estúdio?</h3>
+        </AccordionHeader>
+        <AccordionBody>
+          <p className="text-[1.2em]"><a className="hover:underline text-details font-bold" href="https://maps.app.goo.gl/WDrn5tmtuk88jUfo9">Av.Senador Ricardo Batista 165, bairro Assunção - São Bernardo do Campo</a> 😍</p>
+        </AccordionBody>
+      </Accordion>
+      <Accordion open={open === 5} icon={<Icon id={5} open={open} />}>
+        <AccordionHeader onClick={() => handleOpen(5)} className={open === 5 ? "text-details hover:text-details" : "text-principal"}>
+        <h3>Quais as formas de pagamentos?</h3>
+        </AccordionHeader>
+        <AccordionBody>
+        <p className="text-[1.2em]">Pix, cartões de crédito/débito e dinheiro.</p>
         </AccordionBody>
       </Accordion>
 
@@ -77,7 +87,7 @@ function Contact() {
             <IconAmbiente/>
           </div>
           <div className=" my-[1em] lg:my-[0] lg:w-[70%] ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quo, excepturi repellendus odit quas dolores ea blanditiis
+          <p className="leading-7">Oferecemos um ambiente 100% familiar, criando um espaço acolhedor para você e sua família. Na nossa casa, todos são bem-vindos.</p> 
           </div>
         </div>
         <div className="w-[90%] direction-col items-center lg:direction-row my-[2em]">
@@ -94,7 +104,7 @@ function Contact() {
             <IconAmbiente/>
           </div>
           <div className=" my-[1em] lg:my-[0] lg:w-[70%] ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quo, excepturi repellendus odit quas dolores ea blanditiis
+          <p className="leading-7">Nosso ambiente foi cuidadosamente projetado para oferecer tranquilidade, proporcionando uma experiência única enquanto você se prepara para sua nova tatuagem.</p>
           </div>
         </div>
         <div className="w-[90%] direction-col items-center lg:direction-row my-[2em] overflow-x-hidden">

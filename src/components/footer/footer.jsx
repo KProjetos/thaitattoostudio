@@ -38,12 +38,18 @@ function Footer() {
         
           <div className="w-full direction-col items-center">
           <h4 className="title text-[1.3em]">Informações de contato</h4>
-            <div className="w-full direction-row justify-start gap-1"><span><InstaGold/></span>@thai.tattoostudio</div>
-            <div className="w-full direction-row justify-start gap-1"><span><WhatsGold/></span>(11) 94250-5032</div>
+            <a className="hover:underline" href="https://www.instagram.com/thai.tattoostudio?utm_source=ig_web_button_share_sheet&igsh=MmVlMjlkMTBhMg==">
+              <div className="w-full direction-row justify-start gap-1"><span><InstaGold/></span>@thai.tattoostudio</div>
+            </a>
+            <a className="hover:underline" href="https://wa.me/5511940767201">
+              <div className="w-full direction-row justify-start gap-4"><span><WhatsGold/></span>(11) 94250-5032</div>
+            </a>
           </div>
           <img src={logo} alt="Thai Tattoo Studio" className="w-[175px]"/>
         </div>
-        <div className="w-full text-center direction-row justify-center gap-1 my-[1.5em]"><span><LocalGold/></span>Rua Senador Ricardo Batista, 165 Assunção - SBC/SP</div>
+        <a className="hover:underline" href="https://maps.app.goo.gl/WDrn5tmtuk88jUfo9">
+          <div className="w-full text-center direction-row justify-center gap-1 my-[1.5em]"><span><LocalGold/></span>Rua Senador Ricardo Batista, 165 Assunção - SBC/SP</div>
+        </a>
       </div>
       
 

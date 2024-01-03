@@ -14,7 +14,7 @@ function Home() {
       <Faq />
       
       <div className="w-[90%] max-w-[1080px] direction-col  z-50">
-      <a className="fixed right-4 bottom-4" href="">
+      <a className="fixed right-4 bottom-4" href="https://wa.me/5511940767201">
         <IconWhatsapp/>
       </a>
     </div>
