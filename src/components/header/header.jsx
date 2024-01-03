@@ -18,13 +18,13 @@ function Header() {
       </video>
     <div className="w-[90%] max-w-[1080px] direction-col items-center lg:items-start justify-start z-20">
 
-      <img className="w-[175px]" src={logo} alt="Thai Tattoo Studio" />
-      <a href="">
+      <img className="w-[175px] z-50" src={logo} alt="Thai Tattoo Studio" />
+      
         <div className="direction-row bg-details p-2 rounded-lg w-[175px] text-center text-second">
           <IconWhatsappMin/>
           <p>11 94402-8922</p>
         </div>
-      </a>
+      
       
     </div>
       
