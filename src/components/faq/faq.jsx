@@ -57,7 +57,8 @@ function Contact() {
         <h3>Qual o endereço do estúdio?</h3>
         </AccordionHeader>
         <AccordionBody>
-          <p className="text-[1.2em]"><a className="hover:underline text-details font-bold" href="https://maps.app.goo.gl/WDrn5tmtuk88jUfo9">Av.Senador Ricardo Batista 165, bairro Assunção - São Bernardo do Campo</a> 😍</p>
+          <p className="text-[1.2em]">Av.Senador Ricardo Batista 165, bairro Assunção - São Bernardo do Campo</p>
+          <p className="text-[1.2em] mt-2"><a className="hover:underline text-details font-bold" href="https://maps.app.goo.gl/WDrn5tmtuk88jUfo9"> ➔ Clique aqui para acessar a rota.</a></p>
         </AccordionBody>
       </Accordion>
       <Accordion open={open === 5} icon={<Icon id={5} open={open} />}>
