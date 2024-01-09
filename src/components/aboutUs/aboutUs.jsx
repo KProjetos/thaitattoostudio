@@ -47,19 +47,40 @@ function AboutUs() {
 
         <div className="w-[90%] max-w-[1080px] direction-col lg:mt-[3em]">
           <div className="titleBox ">
+            <h1 className="title">Piercing</h1>
+            
+              <p className="subtitle">Com método de relaxamento</p>
+            
+          </div>
+
+          <div className="w-full direction-col-center">
+            <div className="w-full lg:w-[45%] h-[250px] direction-col-center bg-principal lg:mt-8 rounded-lg text-second">
+                vídeo
+            </div>
+            <div className="w-full lg:w-[60%] lg:px-4">
+              <p className="leading-7 mt-6 lg:mt-[4em] text-center">
+                
+                Nosso estúdio também oferece serviços de body piercing com profissionais capacitados. Utilizamos técnicas de relaxamento para tornar o processo de perfuração tranquilo e relaxante. Priorizamos sua comodidade e bem-estar durante todo o procedimento. Conte conosco para proporcionar uma experiência positiva e segura em cada etapa do seu caminho na arte corporal. Estamos aqui para transformar suas ideias em realidade.
+              </p>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div className="w-[90%] max-w-[1080px] direction-col lg:mt-[3em]">
+          <div className="titleBox ">
             <h1 className="title">Sobre nós</h1>
             
               <p className="subtitle">Um pouco da nossa história</p>
             
           </div>
 
-          <div className="w-full direction-col lg:direction-row">
-            <div className="w-full lg:w-[45%] h-[250px] direction-col-center bg-principal lg:mt-8 my-6 rounded-lg text-second">
-                vídeo
-            </div>
-            <div className="w-full lg:w-[45%] px-2 lg:px-4">
-              <p className="leading-7">
-              Somos do marca Saddam, com 30 anos de experiência. Temos 5 artistas, cada um com suas especialidades. Metodologia moderna onde simulamos a arte no seu corpo através do Tablet, antes de tatuar. Ambiente 100% familiar, possuímos um espaço ZEN.
+          <div className="w-full direction-col-center">
+
+            <div className="w-full lg:w-[65%] px-2 lg:px-4">
+              <p className="leading-7 text-center">
+              Somos da marca Saddam, com 30 anos de experiência. Temos 5 artistas, cada um com suas especialidades. Metodologia moderna onde simulamos a arte no seu corpo através do Tablet, antes de tatuar. Ambiente 100% familiar, possuímos um espaço ZEN.
               </p>
             </div>
           </div>
