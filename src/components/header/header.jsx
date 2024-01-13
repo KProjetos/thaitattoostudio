@@ -22,7 +22,7 @@ function Header() {
       
         <div className="direction-row bg-details p-2 rounded-lg w-[175px] text-center text-second">
           <IconWhatsappMin/>
-          <p>11 94402-8922</p>
+          <p>(11) 94076-7201</p>
         </div>
       
       
