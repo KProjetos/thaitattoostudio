@@ -42,7 +42,7 @@ function Footer() {
               <div className="w-full direction-row justify-start gap-1"><span><InstaGold/></span>@thai.tattoostudio</div>
             </a>
             <a className="hover:underline" href="https://wa.me/5511940767201">
-              <div className="w-full direction-row justify-start gap-4"><span><WhatsGold/></span>(11) 94250-5032</div>
+              <div className="w-full direction-row justify-start gap-4"><span><WhatsGold/></span>(11) 94076-7201</div>
             </a>
           </div>
           <img src={logo} alt="Thai Tattoo Studio" className="w-[175px]"/>
