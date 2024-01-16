@@ -67,6 +67,7 @@ function Contact() {
         </AccordionHeader>
         <AccordionBody>
         <p className="text-[1.2em]">Pix, cartões de crédito/débito e dinheiro.</p>
+        <p className="text-[1.2em]">Crédito parcelamento sem juros</p>
         </AccordionBody>
       </Accordion>
 
