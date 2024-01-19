@@ -3,19 +3,19 @@ export default{
         const data_piercings = [
             {
                 name:"Piercing 1",
-                image: "https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/piercing1WEB.webp?alt=media&token=38e5a29e-ce82-4894-a036-983d55f72b6b"
+                image: "https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/piercing1NEW.jpeg?alt=media&token=6f0a83a6-3841-4ad0-b84d-b4f1eca2157a"
             },
             {
                 name:"Piercing 2",
-                image: "https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/piercing2WEB.webp?alt=media&token=c19ce3b4-1981-4df0-8640-a86bbababaff"
+                image: "https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/piercing2NEW.jpeg?alt=media&token=e696ad4c-a335-4458-bc40-889379ee849b"
             },
             {
                 name:"Piercing 3",
-                image: "https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/piercing3WEB.webp?alt=media&token=21cd6d8c-22c7-44b4-927a-e89ff6161b31"
+                image: "https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/piercing3NEW.jpeg?alt=media&token=af6665d9-8dbd-4739-b044-8bc74073705a"
             },
             {
                 name:"Piercing 4",
-                image: "https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/piercing4WEB.webp?alt=media&token=52ed6db3-c668-411a-8118-1c98ded83a28"
+                image: "https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/piercing4NEW.jpeg?alt=media&token=3f705985-2938-4fe1-b961-3a88f71049ce"
             },
 
         ]

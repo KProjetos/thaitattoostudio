@@ -20,29 +20,26 @@ function AboutUs() {
 
   return (
     <section className="w-full direction-col-center bg-second">
+      
       <div className="hidden direction-col w-[90%] max-w-[1080px] items-center text-center lg:direction-row mt-4 gap-2 ">
-        {/* <img className="w-[320px] h-[450px] rounded-[50px]" data-aos="fade-down" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/firstTattoo.jpeg?alt=media&token=4f2b67c5-9413-428f-8459-95dbbf45ba21" alt="" /> */}
-        {/* <img className="w-[320px] h-[450px] rounded-[50px]" data-aos="fade-down"  data-aos-delay="200" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/tattoEx.png?alt=media&token=dbce4782-f18b-4eea-b467-e5d48ca47e3e" alt="" /> */}
-        {/* <img className="w-[320px] h-[450px] rounded-[50px]" data-aos="fade-down"  data-aos-delay="300" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/tattoEx.png?alt=media&token=dbce4782-f18b-4eea-b467-e5d48ca47e3e" alt="" /> */}
-
-        <Carousel className="">
+        <Carousel autoplay={true} autoplayDelay={5000} loop={true} 	transition={ { duration: 1 } }>
           <div>
             <div>
               <div className="w-full direction-row">
                 <img
-                  className="w-[33.33%] max-h-[425px]"
+                  className="w-[33.33%] h-[425px]"
                   data-aos="fade-down"
                   src={tattos[0].image}
                   alt={tattos[0].name}
                 />
                 <img
-                  className="w-[33.33%] max-h-[425px]"
+                  className="w-[33.33%] h-[425px]"
                   data-aos="fade-down"
                   src={tattos[1].image}
                   alt={tattos[1].name}
                 />
                 <img
-                  className="w-[33.33%] max-h-[425px]"
+                  className="w-[33.33%] h-[425px]"
                   data-aos="fade-down"
                   src={tattos[2].image}
                   alt={tattos[2].name}
@@ -65,19 +62,19 @@ function AboutUs() {
           <div>
             <div className="w-full direction-row">
               <img
-                className="w-[33.33%] max-h-[425px]"
+                className="w-[33.33%] h-[425px]"
                 data-aos="fade-down"
                 src={tattos[3].image}
                 alt={tattos[3].name}
               />
               <img
-                className="w-[33.33%] max-h-[425px]"
+                className="w-[33.33%] h-[425px]"
                 data-aos="fade-down"
                 src={tattos[4].image}
                 alt={tattos[4].name}
               />
               <img
-                className="w-[33.33%] max-h-[425px]"
+                className="w-[33.33%] h-[425px]"
                 data-aos="fade-down"
                 src={tattos[5].image}
                 alt={tattos[5].name}
@@ -99,19 +96,19 @@ function AboutUs() {
           <div>
             <div className="w-full direction-row">
               <img
-                className="w-[33.33%] max-h-[425px]"
+                className="w-[33.33%] h-[425px]"
                 data-aos="fade-down"
                 src={tattos[6].image}
                 alt={tattos[6].name}
               />
               <img
-                className="w-[33.33%] max-h-[425px]"
+                className="w-[33.33%] h-[425px]"
                 data-aos="fade-down"
                 src={tattos[7].image}
                 alt={tattos[7].name}
               />
               <img
-                className="w-[33.33%] max-h-[425px]"
+                className="w-[33.33%] h-[425px]"
                 data-aos="fade-down"
                 src={tattos[8].image}
                 alt={tattos[8].name}
@@ -133,19 +130,19 @@ function AboutUs() {
           <div>
             <div className="w-full direction-row">
               <img
-                className="w-[33.33%] max-h-[425px]"
+                className="w-[33.33%] h-[425px]"
                 data-aos="fade-down"
                 src={tattos[9].image}
                 alt={tattos[9].name}
               />
               <img
-                className="w-[33.33%] max-h-[425px]"
+                className="w-[33.33%] h-[425px]"
                 data-aos="fade-down"
                 src={tattos[10].image}
                 alt={tattos[10].name}
               />
               <img
-                className="w-[33.33%] max-h-[425px]"
+                className="w-[33.33%] h-[425px]"
                 data-aos="fade-down"
                 src={tattos[11].image}
                 alt={tattos[11].name}
@@ -167,16 +164,22 @@ function AboutUs() {
           <div>
             <div className="w-full direction-row">
               <img
-                className="w-[50%] max-h-[425px]"
+                className="w-[33.33%] h-[425px]"
                 data-aos="fade-down"
                 src={tattos[12].image}
                 alt={tattos[12].name}
               />
               <img
-                className="w-[50%] max-h-[425px]"
+                className="w-[33.33%] h-[425px]"
                 data-aos="fade-down"
                 src={tattos[13].image}
                 alt={tattos[13].name}
+              />
+              <img
+                className="w-[33.33%] h-[425px]"
+                data-aos="fade-down"
+                src={tattos[14].image}
+                alt={tattos[14].name}
               />
             </div>
             <div className="w-full direction-row justify-around absolute top-[2em] text-white ">
@@ -186,13 +189,38 @@ function AboutUs() {
               <p className=" py-2 px-4 bg-black/40 rounded-lg">
                 {tattos[13].name}
               </p>
+              <p className=" py-2 px-4 bg-black/40 rounded-lg">
+                {tattos[14].name}
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <div className="w-full direction-row">
+              <img
+                className="w-[50%] h-[425px]"
+                data-aos="fade-down"
+                src={tattos[15].image}
+                alt={tattos[15].name}
+              />
+              <img
+                className="w-[50%] h-[425px]"
+                data-aos="fade-down"
+                src={tattos[16].image}
+                alt={tattos[16].name}
+              />
+            </div>
+            <div className="w-full direction-row justify-around absolute top-[2em] text-white ">
+              <p className=" py-2 px-4 bg-black/40 rounded-lg">
+                {tattos[15].name} | {tattos[16].name} 
+              </p>
+
             </div>
           </div>
         </Carousel>
       </div>
 
-      {/* TODO arrumar carousel para mobile - precisa adicionar o estilo  */}
-      <Carousel className="mobile:relative mobile:bottom-16 lg:hidden w-full max-w-[520px]">
+      <Carousel autoplay={true} autoplayDelay={5000} loop={true} 	transition={ { duration: 1 } } className="mobile:relative mobile:bottom-16 lg:hidden w-full max-w-[520px]">
         <div className="w-full direction-row text-white">
           <img
             src={tattos[0].image}
@@ -345,7 +373,41 @@ function AboutUs() {
             {tattos[13].name}
           </p>
         </div>
+
+        <div className="w-full direction-row text-white">
+          <img
+            src={tattos[14].image}
+            alt={tattos[14].name}
+            className="h-[500px] w-full object-cover"
+          />
+          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+            {tattos[14].name}
+          </p>
+        </div>
+
+        <div className="w-full direction-row text-white">
+          <img
+            src={tattos[15].image}
+            alt={tattos[15].name}
+            className="h-[500px] w-full object-cover"
+          />
+          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+            {tattos[15].name}
+          </p>
+        </div>
+
+        <div className="w-full direction-row text-white">
+          <img
+            src={tattos[16].image}
+            alt={tattos[16].name}
+            className="h-[500px] w-full object-cover"
+          />
+          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+            {tattos[16].name}
+          </p>
+        </div>
       </Carousel>
+      
 
       <div className="w-[90%] max-w-[1080px] direction-col lg:mt-[3em]">
         <div className="titleBox ">
@@ -356,25 +418,54 @@ function AboutUs() {
 
         <div className="w-full direction-col-center">
           <div className="w-full lg:w-[45%] h-[250px] direction-col-center bg-principal lg:mt-8 rounded-lg text-second">
-          <video controls className='w-full  h-[350px] direction-col-center  text-principal lg:mt-8 my-6 rounded-lg'>
+            <video controls className='w-full  h-[350px] direction-col-center  text-principal lg:mt-8 my-6 rounded-lg'>
                 <source src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/videoPiercing.mp4?alt=media&token=7f7503b9-bbdf-4aa3-8d79-5048c061af16"/>
-              </video>
+            </video>
           </div>
         </div>
       </div>
 
-      <div className="w-full direction-col-center lg:py-0 bg-principal text-white">
-        <div className="w-[90%] max-w-[1080px] direction-col-center lg:direction-row gap-6 lg:gap-32">
-          <div className="w-[50%] ">
+
+      <div className="w-full direction-col-center flex-col-reverse lg:py-0 bg-principal text-white">
+        {/* TODO arrumar essa bagaaça do tamanho das imagens */}
+        <Carousel className="lg:hidden w-full max-w-[520px]">
+            <img
+                className="w-full overflow-hidden object-contain"
+                data-aos="fade-down"
+                src={piercings[0].image}
+                alt={piercings[0].name}
+            />
+            <img
+                className="w-full overflow-hidden object-contain "
+                data-aos="fade-down"
+                src={piercings[1].image}
+                alt={piercings[1].name}
+            />
+            <img
+                className="w-full overflow-hidden object-contain "
+                data-aos="fade-down"
+                src={piercings[2].image}
+                alt={piercings[2].name}
+            />
+            <img
+                className="w-full overflow-hidden object-contain"
+                data-aos="fade-down"
+                src={piercings[3].image}
+                alt={piercings[3].name}
+            />
+            
+        </Carousel>
+        <div className="w-[90%] max-w-[1080px] pt-0 lg:pt-6 direction-col-center lg:direction-row gap-6 lg:gap-32">
+          <div className="lg:w-[50%] hidden lg:block">
             <div className="lg:direction-row direction-col-center py-0 lg:gap-6">
               <img
-                className="w-full lg:max-h-[300px]"
+                className="w-[50%] max-h-[300px]"
                 data-aos="fade-down"
                 src={piercings[0].image}
                 alt={piercings[0].name}
               />
               <img
-                className="w-full lg:max-h-[300px] lg:mt-[4em]"
+                className="w-[50%] max-h-[300px] lg:mt-[4em]"
                 data-aos="fade-down"
                 src={piercings[1].image}
                 alt={piercings[1].name}
@@ -382,20 +473,21 @@ function AboutUs() {
             </div>
             <div className="direction-col-center py-0 lg:direction-row lg:gap-8">
             <img
-                className="w-full lg:max-h-[200px] lg:mb-[4em]"
+                className="w-[50%] max-h-[300px] lg:mb-[4em]"
                 data-aos="fade-down"
                 src={piercings[2].image}
                 alt={piercings[2].name}
               />
               <img
-                className="w-full lg:max-h-[200px]"
+                className="w-[50%] max-h-[300px]"
                 data-aos="fade-down"
                 src={piercings[3].image}
                 alt={piercings[3].name}
               />
             </div>
           </div>
-          <div className="lg:w-[50%] direction-col items-start">
+
+          <div className="w-full lg:w-[50%] direction-col items-start">
             <div className="">
               <h2 className="title">Técnica de Respiração</h2>
               <IconAmbiente />
