@@ -2,7 +2,6 @@ import MakeYourOwnArt from "../../components/makeYourOwnArt/makeYourOwnArt";
 import AboutUs from "../../components/aboutUs/aboutUs";
 import Coments from "../../components/coments/coments";
 import Faq from "../../components/faq/faq";
-import Address from "../../components/address/address";
 import IconWhatsapp from "../../images/iconWhatsapp";
 
 function Home() {

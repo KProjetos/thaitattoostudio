@@ -426,7 +426,7 @@ function AboutUs() {
       </div>
 
 
-      <div className="w-full direction-col-center lg:py-0 bg-principal text-white">
+      <div className="w-full direction-col-center flex-col-reverse lg:py-0 bg-principal text-white">
         {/* TODO arrumar essa bagaaça do tamanho das imagens */}
         <Carousel className="lg:hidden w-full max-w-[520px]">
             <img
@@ -455,17 +455,17 @@ function AboutUs() {
             />
             
         </Carousel>
-        <div className="w-[90%] max-w-[1080px] direction-col-center lg:direction-row gap-6 lg:gap-32">
-          <div className="lg:w-[50%]">
+        <div className="w-[90%] max-w-[1080px] pt-0 lg:pt-6 direction-col-center lg:direction-row gap-6 lg:gap-32">
+          <div className="lg:w-[50%] hidden lg:block">
             <div className="lg:direction-row direction-col-center py-0 lg:gap-6">
               <img
-                className="w-full lg:max-h-[300px]"
+                className="w-[50%] max-h-[300px]"
                 data-aos="fade-down"
                 src={piercings[0].image}
                 alt={piercings[0].name}
               />
               <img
-                className="w-full lg:max-h-[300px] lg:mt-[4em]"
+                className="w-[50%] max-h-[300px] lg:mt-[4em]"
                 data-aos="fade-down"
                 src={piercings[1].image}
                 alt={piercings[1].name}
@@ -473,13 +473,13 @@ function AboutUs() {
             </div>
             <div className="direction-col-center py-0 lg:direction-row lg:gap-8">
             <img
-                className="w-full lg:max-h-[200px] lg:mb-[4em]"
+                className="w-[50%] max-h-[300px] lg:mb-[4em]"
                 data-aos="fade-down"
                 src={piercings[2].image}
                 alt={piercings[2].name}
               />
               <img
-                className="w-full lg:max-h-[200px]"
+                className="w-[50%] max-h-[300px]"
                 data-aos="fade-down"
                 src={piercings[3].image}
                 alt={piercings[3].name}
@@ -487,7 +487,7 @@ function AboutUs() {
             </div>
           </div>
 
-          <div className="w-ful lg:w-[50%] direction-col items-start">
+          <div className="w-full lg:w-[50%] direction-col items-start">
             <div className="">
               <h2 className="title">Técnica de Respiração</h2>
               <IconAmbiente />
