@@ -11,8 +11,7 @@ import "aos/dist/aos.css";
 function AboutUs() {
   const tattos = data_tattos.tattoos();
   const piercings = data_piercings.piercings();
-  // const cachedImages = caching(images)
-  //   console.log(cachedImages.image0)
+
 
   useEffect(() => {
     AOS.init({ duration: 1200 });

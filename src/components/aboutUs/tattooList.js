@@ -58,7 +58,7 @@ export default{
                 image: "https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/sketchWEB.webp?alt=media&token=20d1ee07-29ff-4245-9489-993a59f570f2"
             },
             {
-                name:"Pontialhismo",
+                name:"Pontilhismo",
                 image: "https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/pontialhismoWEB.webp?alt=media&token=9a076012-64a6-4733-ae9c-3638eeebcfaa"
             },
             {
