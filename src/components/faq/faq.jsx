@@ -110,9 +110,9 @@ function Contact() {
           </div>
         </div>
         <div className="w-[90%] direction-col items-center lg:direction-row my-[2em] overflow-x-hidden">
-          <img data-aos="fade-left" className="w-[350px] h-[350px] object-fit" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
-          <img data-aos="fade-left" className="w-[350px] h-[350px] object-fit" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
-          <img data-aos="fade-left" className="w-[350px] h-[350px] object-fit" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/ambienteEx.png?alt=media&token=f4a85808-39b2-4f21-acb5-86c10d70bdba" alt="" />
+        <img data-aos="fade-left" className="w-[350px] h-[350px] object-fit" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/espacoZen2WEB.webp?alt=media&token=5faca8f3-5a49-41b9-b855-a023e724c1d9" alt="Espaço zen" />
+          <img data-aos="fade-left" className="w-[350px] h-[350px] object-fit" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/espacoZen1WEB.webp?alt=media&token=d38d7fa0-e182-45d9-8139-8db515a8f91e" alt="Espaço zen" />
+          <img data-aos="fade-left" className="w-[350px] h-[350px] object-fit" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/espacoZen3WEB.webp?alt=media&token=0d18b929-552b-4c63-915a-6aa3e10d7a89" alt="Espaço zen" />
         </div>
       </div>
 
