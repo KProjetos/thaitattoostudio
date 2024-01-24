@@ -197,13 +197,13 @@ function AboutUs() {
           <div>
             <div className="w-full direction-row">
               <img
-                className="w-[50%] h-[425px]"
+                className="max-w-[50%] h-[425px]"
                 data-aos="fade-down"
                 src={tattos[15].image}
                 alt={tattos[15].name}
               />
               <img
-                className="w-[50%] h-[425px]"
+                className="max-w-[50%] h-[425px]"
                 data-aos="fade-down"
                 src={tattos[16].image}
                 alt={tattos[16].name}
@@ -426,28 +426,28 @@ function AboutUs() {
 
 
       <div className="w-full direction-col-center flex-col-reverse lg:py-0 bg-principal text-white">
-        {/* TODO arrumar essa bagaaça do tamanho das imagens */}
+        
         <Carousel className="lg:hidden w-full max-w-[520px]">
             <img
-                className="w-full overflow-hidden object-contain"
+                className="w-full max-w-[520px] overflow-hidden object-contain"
                 data-aos="fade-down"
                 src={piercings[0].image}
                 alt={piercings[0].name}
             />
             <img
-                className="w-full overflow-hidden object-contain "
+                className="w-full max-w-[520px] overflow-hidden object-contain "
                 data-aos="fade-down"
                 src={piercings[1].image}
                 alt={piercings[1].name}
             />
             <img
-                className="w-full overflow-hidden object-contain "
+                className="w-full max-w-[520px] overflow-hidden object-contain "
                 data-aos="fade-down"
                 src={piercings[2].image}
                 alt={piercings[2].name}
             />
             <img
-                className="w-full overflow-hidden object-contain"
+                className="w-full max-w-[520px] overflow-hidden object-contain"
                 data-aos="fade-down"
                 src={piercings[3].image}
                 alt={piercings[3].name}
@@ -458,13 +458,13 @@ function AboutUs() {
           <div className="lg:w-[50%] hidden lg:block">
             <div className="lg:direction-row direction-col-center py-0 lg:gap-6">
               <img
-                className="w-[50%] max-h-[300px]"
+                className="max-w-[50%] max-h-[300px]"
                 data-aos="fade-down"
                 src={piercings[0].image}
                 alt={piercings[0].name}
               />
               <img
-                className="w-[50%] max-h-[300px] lg:mt-[4em]"
+                className="max-w-[50%] max-h-[300px] lg:mt-[4em]"
                 data-aos="fade-down"
                 src={piercings[1].image}
                 alt={piercings[1].name}
@@ -472,13 +472,13 @@ function AboutUs() {
             </div>
             <div className="direction-col-center py-0 lg:direction-row lg:gap-8">
             <img
-                className="w-[50%] max-h-[300px] lg:mb-[4em]"
+                className="max-w-[50%] max-h-[300px] lg:mb-[4em]"
                 data-aos="fade-down"
                 src={piercings[2].image}
                 alt={piercings[2].name}
               />
               <img
-                className="w-[50%] max-h-[300px]"
+                className="max-w-[50%] max-h-[300px]"
                 data-aos="fade-down"
                 src={piercings[3].image}
                 alt={piercings[3].name}

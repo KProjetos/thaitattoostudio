@@ -26,6 +26,7 @@ function Footer() {
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1946.577355905785!2d-46.571218225764845!3d-23.722832758137386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4166e758d15d%3A0x6722c47df4074cfd!2sAv.%20Sen.%20Ricardo%20Batista%2C%20165%20-%20Assun%C3%A7%C3%A3o%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP%2C%2009812-490!5e0!3m2!1spt-BR!2sbr!4v1700329132641!5m2!1spt-BR!2sbr"
           allowfullscreen=""
           loading="lazy"
+          title="map"
           referrerpolicy="no-referrer-when-downgrade"
         >
 
@@ -37,7 +38,7 @@ function Footer() {
         <div className="text-white direction-col flex-col-reverse items-center gap-[2em] lg:direction-row">
         
           <div className="w-full direction-col items-center">
-          <h4 className="title text-[1.3em]">Informações de contato</h4>
+          <h2 className="title text-[1.3em]">Informações de contato</h2>
             <a className="hover:underline" href="https://www.instagram.com/thai.tattoostudio?utm_source=ig_web_button_share_sheet&igsh=MmVlMjlkMTBhMg==">
               <div className="w-full direction-row justify-start gap-1"><span><InstaGold/></span>@thai.tattoostudio</div>
             </a>
@@ -57,7 +58,7 @@ function Footer() {
     </div>
 
     <div className="w-full direction-col items-center text-white  mt-7">
-      <h4>Criado por Ntec Soluções © {currentYear}</h4>
+      <h2>Criado por Ntec Soluções © {currentYear}</h2>
     </div>
     </div>
   </footer>
