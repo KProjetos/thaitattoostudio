@@ -93,9 +93,9 @@ function Contact() {
           </div>
         </div>
         <div className="w-[90%] direction-col items-center lg:direction-row my-[2em] overflow-hidden">
-        <img data-aos="fade-right" className="w-[350px] h-[350px] object-fit" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/local2WEB.webp?alt=media&token=bfcdb87e-8098-419c-9cf4-55026c4af5f6" alt="Thai Tattoo Studio" />
-          <img data-aos="fade-right" className="w-[350px] h-[350px] object-fit" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/local1WEB.webp?alt=media&token=4aa216ef-304c-4c87-9d9b-c36e2c84468e" alt="Sala 1 para tatuar" />
-          <img data-aos="fade-right" className="w-[350px] h-[350px] object-fit" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/local3WEB.webp?alt=media&token=68b7f40a-0c6d-4906-9e6b-cb8bf181a777" alt="Sala 2 para tatuar" />
+        <img data-aos="fade-right" className="w-[350px] h-[350px] object-" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/local2WEB.webp?alt=media&token=bfcdb87e-8098-419c-9cf4-55026c4af5f6" alt="Thai Tattoo Studio" />
+          <img data-aos="fade-right" className="w-[350px] h-[350px] object-fill" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/local1WEB.webp?alt=media&token=4aa216ef-304c-4c87-9d9b-c36e2c84468e" alt="Sala 1 para tatuar" />
+          <img data-aos="fade-right" className="w-[350px] h-[350px] object-fill" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/local3WEB.webp?alt=media&token=68b7f40a-0c6d-4906-9e6b-cb8bf181a777" alt="Sala 2 para tatuar" />
         </div>
       </div>
 
@@ -110,9 +110,9 @@ function Contact() {
           </div>
         </div>
         <div className="w-[90%] direction-col items-center lg:direction-row my-[2em] overflow-x-hidden">
-        <img data-aos="fade-left" className="w-[350px] h-[350px] object-fit" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/espacoZen2WEB.webp?alt=media&token=5faca8f3-5a49-41b9-b855-a023e724c1d9" alt="Espaço zen" />
-          <img data-aos="fade-left" className="w-[350px] h-[350px] object-fit" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/espacoZen1WEB.webp?alt=media&token=564720d6-c63c-4edd-a774-a7292772763b" alt="Espaço zen" />
-          <img data-aos="fade-left" className="w-[350px] h-[350px] object-fit" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/espacoZen3WEB.webp?alt=media&token=0d18b929-552b-4c63-915a-6aa3e10d7a89" alt="Espaço zen" />
+        <img data-aos="fade-left" className="w-[350px] h-[350px] object-fill" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/espacoZen2WEB.webp?alt=media&token=5faca8f3-5a49-41b9-b855-a023e724c1d9" alt="Espaço zen" />
+          <img data-aos="fade-left" className="w-[350px] h-[350px] object-fill" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/espacoZen1WEB.webp?alt=media&token=564720d6-c63c-4edd-a774-a7292772763b" alt="Espaço zen" />
+          <img data-aos="fade-left" className="w-[350px] h-[350px] object-fill" src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/espacoZen3WEB.webp?alt=media&token=0d18b929-552b-4c63-915a-6aa3e10d7a89" alt="Espaço zen" />
         </div>
       </div>
 

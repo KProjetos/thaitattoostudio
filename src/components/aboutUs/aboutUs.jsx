@@ -45,13 +45,13 @@ function AboutUs() {
                 />
               </div>
               <div className="w-full direction-row justify-around absolute top-[2em] text-white ">
-                <p className="py-2 px-4 bg-black/40 rounded-lg">
+                <p className="py-2 px-4 bg-black/80 rounded-lg">
                   {tattos[0].name}
                 </p>
-                <p className=" py-2 px-4 bg-black/40 rounded-lg">
+                <p className=" py-2 px-4 bg-black/80 rounded-lg">
                   {tattos[1].name}
                 </p>
-                <p className=" py-2 px-4 bg-black/40 rounded-lg">
+                <p className=" py-2 px-4 bg-black/80 rounded-lg">
                   {tattos[2].name}
                 </p>
               </div>
@@ -80,13 +80,13 @@ function AboutUs() {
               />
             </div>
             <div className="w-full direction-row justify-around absolute top-[2em] text-white ">
-              <p className="py-2 px-4 bg-black/40 rounded-lg">
+              <p className="py-2 px-4 bg-black/80 rounded-lg">
                 {tattos[3].name}
               </p>
-              <p className=" py-2 px-4 bg-black/40 rounded-lg">
+              <p className=" py-2 px-4 bg-black/80 rounded-lg">
                 {tattos[4].name}
               </p>
-              <p className=" py-2 px-4 bg-black/40 rounded-lg">
+              <p className=" py-2 px-4 bg-black/80 rounded-lg">
                 {tattos[5].name}
               </p>
             </div>
@@ -114,13 +114,13 @@ function AboutUs() {
               />
             </div>
             <div className="w-full direction-row justify-around absolute top-[2em] text-white ">
-              <p className="py-2 px-4 bg-black/40 rounded-lg">
+              <p className="py-2 px-4 bg-black/80 rounded-lg">
                 {tattos[6].name}
               </p>
-              <p className=" py-2 px-4 bg-black/40 rounded-lg">
+              <p className=" py-2 px-4 bg-black/80 rounded-lg">
                 {tattos[7].name}
               </p>
-              <p className=" py-2 px-4 bg-black/40 rounded-lg">
+              <p className=" py-2 px-4 bg-black/80 rounded-lg">
                 {tattos[8].name}
               </p>
             </div>
@@ -148,13 +148,13 @@ function AboutUs() {
               />
             </div>
             <div className="w-full direction-row justify-around absolute top-[2em] text-white ">
-              <p className="py-2 px-4 bg-black/40 rounded-lg">
+              <p className="py-2 px-4 bg-black/80 rounded-lg">
                 {tattos[9].name}
               </p>
-              <p className=" py-2 px-4 bg-black/40 rounded-lg">
+              <p className=" py-2 px-4 bg-black/80 rounded-lg">
                 {tattos[10].name}
               </p>
-              <p className=" py-2 px-4 bg-black/40 rounded-lg">
+              <p className=" py-2 px-4 bg-black/80 rounded-lg">
                 {tattos[11].name}
               </p>
             </div>
@@ -182,13 +182,13 @@ function AboutUs() {
               />
             </div>
             <div className="w-full direction-row justify-around absolute top-[2em] text-white ">
-              <p className="py-2 px-4 bg-black/40 rounded-lg">
+              <p className="py-2 px-4 bg-black/80 rounded-lg">
                 {tattos[12].name}
               </p>
-              <p className=" py-2 px-4 bg-black/40 rounded-lg">
+              <p className=" py-2 px-4 bg-black/80 rounded-lg">
                 {tattos[13].name}
               </p>
-              <p className=" py-2 px-4 bg-black/40 rounded-lg">
+              <p className=" py-2 px-4 bg-black/80 rounded-lg">
                 {tattos[14].name}
               </p>
             </div>
@@ -210,7 +210,7 @@ function AboutUs() {
               />
             </div>
             <div className="w-full direction-row justify-around absolute top-[2em] text-white ">
-              <p className=" py-2 px-4 bg-black/40 rounded-lg">
+              <p className=" py-2 px-4 bg-black/80 rounded-lg">
                 {tattos[15].name} | {tattos[16].name} 
               </p>
 
@@ -226,7 +226,7 @@ function AboutUs() {
             alt={tattos[0].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[0].name}
           </p>
         </div>
@@ -237,7 +237,7 @@ function AboutUs() {
             alt={tattos[1].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[1].name}
           </p>
         </div>
@@ -248,7 +248,7 @@ function AboutUs() {
             alt={tattos[2].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[2].name}
           </p>
         </div>
@@ -258,7 +258,7 @@ function AboutUs() {
             alt={tattos[3].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[3].name}
           </p>
         </div>
@@ -269,7 +269,7 @@ function AboutUs() {
             alt={tattos[4].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[4].name}
           </p>
         </div>
@@ -280,7 +280,7 @@ function AboutUs() {
             alt={tattos[5].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[5].name}
           </p>
         </div>
@@ -291,7 +291,7 @@ function AboutUs() {
             alt={tattos[6].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[6].name}
           </p>
         </div>
@@ -302,7 +302,7 @@ function AboutUs() {
             alt={tattos[7].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[7].name}
           </p>
         </div>
@@ -313,7 +313,7 @@ function AboutUs() {
             alt={tattos[8].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[8].name}
           </p>
         </div>
@@ -324,7 +324,7 @@ function AboutUs() {
             alt={tattos[9].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[9].name}
           </p>
         </div>
@@ -335,7 +335,7 @@ function AboutUs() {
             alt={tattos[10].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[10].name}
           </p>
         </div>
@@ -346,7 +346,7 @@ function AboutUs() {
             alt={tattos[11].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[11].name}
           </p>
         </div>
@@ -357,7 +357,7 @@ function AboutUs() {
             alt={tattos[12].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[12].name}
           </p>
         </div>
@@ -368,7 +368,7 @@ function AboutUs() {
             alt={tattos[13].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[13].name}
           </p>
         </div>
@@ -379,7 +379,7 @@ function AboutUs() {
             alt={tattos[14].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[14].name}
           </p>
         </div>
@@ -390,7 +390,7 @@ function AboutUs() {
             alt={tattos[15].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[15].name}
           </p>
         </div>
@@ -401,7 +401,7 @@ function AboutUs() {
             alt={tattos[16].name}
             className="h-[500px] w-full object-cover"
           />
-          <p className="absolute top-[3em] py-2 px-4 bg-black/40 rounded-lg">
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[16].name}
           </p>
         </div>
@@ -417,7 +417,7 @@ function AboutUs() {
 
         <div className="w-full direction-col-center">
           <div className="w-full lg:w-[45%] h-[250px] direction-col-center bg-principal lg:mt-8 rounded-lg text-second">
-            <video controls className='w-full  h-[350px] direction-col-center  text-principal lg:mt-8 my-6 rounded-lg'>
+            <video preload="none" controls className='w-full  h-[350px] direction-col-center  text-principal lg:mt-8 my-6 rounded-lg'>
                 <source src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/videoPiercing.mp4?alt=media&token=7f7503b9-bbdf-4aa3-8d79-5048c061af16"/>
             </video>
           </div>

@@ -1,8 +1,11 @@
 import  RoutesApp  from "./routes"
-import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
+import { lazy } from 'react';
+const Header = lazy(() => import('./components/header/header'));
 
 function App() {
+
+  
   
 
   return (
