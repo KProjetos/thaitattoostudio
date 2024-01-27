@@ -72,7 +72,7 @@ function Coments() {
                   <div className="w-full direction-col-center">
                     
                     <div className="w-[85%] h-[600px] lg:h-[320px] px-[1em] lg:px-[2em] direction-col bg-second rounded-[27px] shadow-md shadow-details">
-                      <p className="text-details text-[1.2em] text-center lg:text-left">{coment.name}</p>
+                      <p className=" text-[1.2em] text-center lg:text-left">{coment.name}</p>
                       <span className="lg:ml-1 mb-4 text-center lg:text-left">⭐ ⭐ ⭐ ⭐ ⭐</span>
                       <p className="text-[1.2em] text-center">"{coment.coment}"</p>
                     </div>
