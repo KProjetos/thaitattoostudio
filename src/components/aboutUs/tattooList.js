@@ -6,6 +6,11 @@ export default{
                 image: "https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/firstTattooWEB.webp?alt=media&token=a255e878-7299-45ca-bf6a-9cfcb3c1783c"
             },
             {
+                name: "Realismo",
+                image: "https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/realismoLeaoWEB.webp?alt=media&token=365c61ee-0979-4c50-9a1c-3ff1854e2796"
+
+            },
+            {
                 name:"Floral",
                 image: "https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/blackworkWEB.webp?alt=media&token=88334517-4521-49f9-bb2c-a59c2ad86229"
             },

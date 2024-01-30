@@ -197,21 +197,33 @@ function AboutUs() {
           <div>
             <div className="w-full direction-row">
               <img
-                className="max-w-[50%] h-[425px]"
+                className="max-w-[33.33%] h-[425px]"
                 data-aos="fade-down"
                 src={tattos[15].image}
                 alt={tattos[15].name}
               />
               <img
-                className="max-w-[50%] h-[425px]"
+                className="max-w-[33.33%] h-[425px]"
                 data-aos="fade-down"
                 src={tattos[16].image}
                 alt={tattos[16].name}
               />
+              <img
+                className="max-w-[33.33%] h-[425px]"
+                data-aos="fade-down"
+                src={tattos[17].image}
+                alt={tattos[17].name}
+              />
             </div>
             <div className="w-full direction-row justify-around absolute top-[2em] text-white ">
+            <p className="py-2 px-4 bg-black/80 rounded-lg">
+                {tattos[15].name}
+              </p>
               <p className=" py-2 px-4 bg-black/80 rounded-lg">
-                {tattos[15].name} | {tattos[16].name} 
+                {tattos[16].name}
+              </p>
+              <p className=" py-2 px-4">
+              
               </p>
 
             </div>
@@ -403,6 +415,16 @@ function AboutUs() {
           />
           <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
             {tattos[16].name}
+          </p>
+        </div>
+        <div className="w-full direction-row text-white">
+          <img
+            src={tattos[17].image}
+            alt={tattos[17].name}
+            className="h-[500px] w-full object-cover"
+          />
+          <p className="absolute top-[3em] py-2 px-4 bg-black/80 rounded-lg">
+            {tattos[17].name}
           </p>
         </div>
       </Carousel>
