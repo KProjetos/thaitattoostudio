@@ -58,7 +58,7 @@ function Footer() {
     </div>
 
     <div className="w-full direction-col items-center text-white  mt-7">
-      <h2>Criado por Ntec Soluções © {currentYear}</h2>
+      <h2>Criado por FBDEV © {currentYear}</h2>
     </div>
     </div>
   </footer>
