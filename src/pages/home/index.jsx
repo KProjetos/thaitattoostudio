@@ -13,7 +13,7 @@ function Home() {
       <Faq />
       
       <div className="w-[90%] max-w-[1080px] direction-col  z-50">
-      <a aria-label="Whatsapp" className="fixed right-4 bottom-4" href="https://wa.me/5511940767201">
+      <a aria-label="Whatsapp" className="fixed right-4 bottom-4" href="https://wa.me/5511940767201" onClick={gtag('event', 'conversion', {'send_to': 'AW-11407376048/t4JZCL7t_4wZELD9ur8q'})}>
         <IconWhatsapp/>
       </a>
     </div>

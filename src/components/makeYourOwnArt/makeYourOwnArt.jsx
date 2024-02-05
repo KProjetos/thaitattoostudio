@@ -33,17 +33,23 @@ function MakeYourOwnArt() {
 
           <div className="w-full direction-col text-center lg:direction-row relative top-16 gap-4 lg:gap-0 z-50">
 
-          <div data-aos="fade-down" className="w-full lg:w-[28%] px-2 lg:px-4 flex flex-row items-center justify-start p-4 rounded-lg gap-3 bg-white shadow-md shadow-details">
-            <div className="text-details text-[1.7em]">1.</div>
-            <div className="text-principal">Criação de arte exclusiva</div>
+          <div data-aos="fade-down" className="h-[200px] w-full lg:w-[28%] px-2 lg:px-4 flex flex-row items-center justify-start p-4 rounded-lg gap-3 bg-white shadow-md shadow-details">
+            {/* <div className="text-details text-[1.7em]">1.</div> */}
+            <div className="text-principal"><h2 className='text-details'>1. Criação de arte exclusiva</h2>
+            <p>Momento para os artistas transformarem a sua ideia em arte num bate-papo descontraído.</p>
+            </div>
           </div>
-          <div data-aos="fade-down"  data-aos-delay="200" className="w-full lg:w-[28%] px-2 lg:px-4 flex flex-row items-center justify-start p-4 rounded-lg gap-3 bg-white shadow-md shadow-details lg:relative lg:top-6">
-            <div className="text-details text-[1.7em]">2.</div>
-            <div className="text-principal">Simulação da arte na sua pele</div>
+          <div data-aos="fade-down"  data-aos-delay="200" className="h-[200px] w-full lg:w-[28%] px-2 lg:px-4 flex flex-row items-center justify-start p-4 rounded-lg gap-3 bg-white shadow-md shadow-details lg:relative lg:top-6">
+            {/* <div className="text-details text-[1.7em]">2.</div> */}
+            <div className="text-principal"><h2 className='text-details'>2. Simulação da arte na sua pele</h2>
+            <p>Tiramos foto da região onde quer fazer a Tattoo, e posicionamos a sua arte na sua pele através do Tablet para você aprovar antes de tatuar.</p>
+            </div>
           </div>
-          <div data-aos="fade-down"  data-aos-delay="300" className="w-full lg:w-[28%] px-2 lg:px-4 flex flex-row items-center justify-start p-4 rounded-lg gap-3 bg-white shadow-md shadow-details">
-            <div className="text-details text-[1.7em]">3.</div>
-            <div className="text-principal" >Agendamento da sessão</div>    
+          <div data-aos="fade-down"  data-aos-delay="300" className="h-[200px] w-full lg:w-[28%] px-2 lg:px-4 flex flex-row items-center justify-start p-4 rounded-lg gap-3 bg-white shadow-md shadow-details">
+            {/* <div className="text-details text-[1.7em]">3.</div> */}
+            <div className="text-principal" ><h2 className='text-details'>3. Agendamento da sessão</h2>
+            <p>Após todos os ajustes feitos, é hora de realizar esse sonho! Bora fazer arte!</p>
+            </div>    
           </div>
 
         </div>

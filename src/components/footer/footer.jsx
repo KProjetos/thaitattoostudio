@@ -42,7 +42,7 @@ function Footer() {
             <a className="hover:underline" href="https://www.instagram.com/thai.tattoostudio?utm_source=ig_web_button_share_sheet&igsh=MmVlMjlkMTBhMg==">
               <div className="w-full direction-row justify-start gap-1"><span><InstaGold/></span>@thai.tattoostudio</div>
             </a>
-            <a className="hover:underline" href="https://wa.me/5511940767201">
+            <a className="hover:underline" href="https://wa.me/5511940767201" onClick={gtag('event', 'conversion', {'send_to': 'AW-11407376048/t4JZCL7t_4wZELD9ur8q'})}>
               <div className="w-full direction-row justify-start gap-4"><span><WhatsGold/></span>(11) 94076-7201</div>
             </a>
           </div>
