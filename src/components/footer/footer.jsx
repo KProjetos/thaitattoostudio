@@ -11,6 +11,19 @@ function Footer() {
   const image = data_images.images();
   const logo = image.logo;
 
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-11407286946/j1QBCLWHtY4ZEKLFtb8q',
+        'event_callback': callback
+    });
+    return false;
+  }
+
 
   return (
     <footer className="w-full h-full direction-col-center bg-footer bg-cover py-0">
@@ -42,7 +55,7 @@ function Footer() {
             <a className="hover:underline" href="https://www.instagram.com/thai.tattoostudio?utm_source=ig_web_button_share_sheet&igsh=MmVlMjlkMTBhMg==">
               <div className="w-full direction-row justify-start gap-1"><span><InstaGold/></span>@thai.tattoostudio</div>
             </a>
-            <a className="hover:underline" href="https://wa.me/5511940767201" target="_blank" onClick={ () =>gtag('event', 'conversion', {'send_to': 'AW-11407376048/t4JZCL7t_4wZELD9ur8q'})}>
+            <a className="hover:underline" href="https://wa.me/5511940767201" target="_blank" onClick={ () => gtag_report_conversion("https://wa.me/5511940767201")}>
               <div className="w-full direction-row justify-start gap-4"><span><WhatsGold/></span>(11) 94076-7201</div>
             </a>
           </div>

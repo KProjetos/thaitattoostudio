@@ -6,6 +6,19 @@ function Header() {
   const image = data_images.images();
   const logo = image.logo;
 
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-11407286946/j1QBCLWHtY4ZEKLFtb8q',
+        'event_callback': callback
+    });
+    return false;
+  }
+
   return (
     <header className="w-full h-[85vh]  direction-col-center justify-center bg-principal z-50">
       <div className=" w-full min-h-[85vh] absolute top-0 bg-black/80 z-50">
@@ -36,7 +49,7 @@ function Header() {
           Faça seu projeto exclusivo agora mesmo e visualize a arte no seu corpo através do Tablet, antes de tatuar.
         </p>
 
-        <a target="_blank" href="https://wa.me/5511940767201" className="direction-col-center lg:text-[1.2em] p-0" onClick={ () => gtag('event', 'conversion', { 'send_to': 'AW-11407376048/t4JZCL7t_4wZELD9ur8q' })}>
+        <a target="_blank" href="https://wa.me/5511940767201" className="direction-col-center lg:text-[1.2em] p-0" onClick={ () => gtag_report_conversion("https://wa.me/5511940767201")}>
           
           
           <div className="direction-row bg-details p-2 rounded-lg w-[200px] text-center text-second mt-2">
