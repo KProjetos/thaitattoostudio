@@ -43,13 +43,17 @@ function AboutUs() {
 
       <div className="w-[90%] max-w-[1080px] direction-col lg:mt-[3em]">
         <div className="titleBox ">
-          <h1 className="title">Piercing</h1>
+          <h1 className="title">Piercing de alta qualidade</h1>
 
           <p className="subtitle">Com método de relaxamento</p>
         </div>
 
+        <p className="mt-[2em] text-center">Utilizamos somente jóias de Titânio, prezando pela saúde e qualidade para com os nossos clientes.</p>
+
+        <span className=" text-[0.8em] text-center">*Titânio é um material nobre, hipoalergênico, com aceitação de 99,9% do corpo, é um material livre de níquel que pode causar alergia, inflamação, e rejeição.</span>
+
         <div className="w-full direction-col-center">
-          <div className="w-full lg:w-[45%] h-[250px] direction-col-center bg-principal lg:mt-8 rounded-lg text-second">
+          <div className="w-full lg:w-[45%] h-[250px] direction-col-center bg-principal lg:mt-4 rounded-lg text-second">
             <video preload="none" controls className='w-full  h-[350px] direction-col-center  text-principal lg:mt-8 my-6 rounded-lg'>
                 <source src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/videoPiercing.mp4?alt=media&token=7f7503b9-bbdf-4aa3-8d79-5048c061af16"/>
             </video>
@@ -74,6 +78,7 @@ function AboutUs() {
               })
             }
         </Carousel>
+
         <div className="w-[90%] max-w-[1080px] pt-0 lg:pt-6 direction-col-center lg:direction-row gap-6 lg:gap-32">
           <div className="lg:w-[50%] hidden lg:block">
             <div className="lg:direction-row direction-col-center py-0 lg:gap-6">
@@ -119,6 +124,8 @@ function AboutUs() {
                 positiva e segura em cada etapa do seu caminho na arte corporal.
                 Estamos aqui para transformar suas ideias em realidade.
               </p>
+
+              
             </div>
           </div>
         </div>
@@ -147,12 +154,6 @@ function AboutUs() {
           </div>
         </div>
       </div>
-      <a
-        className="title text-[1.3em] mt-8 hover:underline"
-        href="https://www.instagram.com/stories/highlights/17998672660934026/"
-      >
-        Assista mais sobre nossa história
-      </a>
     </section>
   );
 }
