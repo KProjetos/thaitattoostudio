@@ -26,4 +26,27 @@
   .subtitle {
     @apply text-[1.3em] font-aref;
   }
+
+  #cookieBanner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #cookieBanner button {
+    display: block;
+    background-color: #BD8210;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 1em;
+  }
 }
