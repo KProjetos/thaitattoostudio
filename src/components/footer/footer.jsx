@@ -19,6 +19,8 @@ function Footer() {
     
     window.gtag('event', 'conversion', {'send_to': 'AW-11407286946/j1QBCLWHtY4ZEKLFtb8q'});
     
+    // this will trigger the conversion on meta
+    window.fbq('track', 'Lead');
   }
 
 
