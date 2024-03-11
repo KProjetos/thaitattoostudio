@@ -53,8 +53,7 @@ function Header() {
       <div className="w-[90%] max-w-[1080px]  text-second direction-col items-center lg:items-center justify-start z-50 font-aref">
         <p className=" text-[1.3em] text-center lg:text-[1.5em] font-bold text-second mt-[2em]">
           Transformamos a sua ideia em arte. Sua melhor ideia, Nossos melhores
-          tatuadores, A melhor experiência. Eternize um significado, uma
-          homenagem, ou uma arte que te represente através da tatuagem
+          tatuadores, A melhor experiência.
         </p>
 
         <p className="text-center mb-[2em]">
