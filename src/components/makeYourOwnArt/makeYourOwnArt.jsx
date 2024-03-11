@@ -20,7 +20,7 @@ function MakeYourOwnArt() {
 
           <div className="w-full direction-col lg:direction-row mt-8">
             <div className="w-full lg:w-[45%] h-[250px] direction-col-center rounded-lg">
-              <video preload="none" controls className='w-full  h-[350px] direction-col-center  text-principal lg:mt-8 my-6 rounded-lg'>
+              <video preload="none" controls poster='https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/tumbvideotatto.png?alt=media&token=8e06cf3c-8475-4801-82dc-468d9b23ee12' className='w-full  h-[350px] direction-col-center  text-principal lg:mt-8 my-6 rounded-lg'>
                 <source src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/videoTattoo.mp4?alt=media&token=448778ca-e988-4e93-b88e-42738266cf96"/>
               </video>
             </div>

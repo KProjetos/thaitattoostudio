@@ -1,7 +1,7 @@
 import { Carousel } from "@material-tailwind/react";
 import { useEffect } from "react";
 import IconAmbiente from "../faq/arrowAmbiente.jsx";
-import data_tattos from "./tattooList.js";
+
 import data_piercings from "./piercingList.js";
 import { Suspense } from 'react';
 
@@ -15,7 +15,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function AboutUs() {
-  const tattos = data_tattos.tattoos();
   const piercings = data_piercings.piercings();
 
 
@@ -54,7 +53,7 @@ function AboutUs() {
 
         <div className="w-full direction-col-center">
           <div className="w-full lg:w-[45%] h-[250px] direction-col-center bg-principal lg:mt-4 rounded-lg text-second">
-            <video preload="none" controls className='w-full  h-[350px] direction-col-center  text-principal lg:mt-8 my-6 rounded-lg'>
+            <video preload="none" controls poster="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/pilcen.png?alt=media&token=fcbce556-6c83-4a85-980a-f290a765f44b" className='w-full  h-[350px] direction-col-center  text-principal lg:mt-8 my-6 rounded-lg'>
                 <source src="https://firebasestorage.googleapis.com/v0/b/thai-tattoo-studio-42df4.appspot.com/o/videoPiercing.mp4?alt=media&token=7f7503b9-bbdf-4aa3-8d79-5048c061af16"/>
             </video>
           </div>
